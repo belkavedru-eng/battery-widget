@@ -14,7 +14,11 @@
         android:singleLine="true"
         android:includeFontPadding="false"
         android:text="0%"
-        android:textColor="#1B1B1B"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#99000000"
+        android:shadowDx="1"
+        android:shadowDy="2"
+        android:shadowRadius="3"
         android:textSize="54dp"
         android:textStyle="bold" />
 </FrameLayout>

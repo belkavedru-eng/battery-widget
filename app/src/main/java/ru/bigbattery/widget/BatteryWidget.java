@@ -20,9 +20,9 @@ public class BatteryWidget extends AppWidgetProvider {
 
     private static final String ACTION_REFRESH = "ru.bigbattery.widget.REFRESH";
 
-    // Цвета: тёмные цифры на светлой полупрозрачной подложке (подложка задана в res/drawable/bg.xml)
-    private static final int COLOR_NORMAL = 0xFF1B1B1B;
-    private static final int COLOR_LOW = 0xFFD32F2F;
+    // Цвета: белые цифры на полупрозрачной тёмной подложке (подложка задана в res/drawable/bg.xml)
+    private static final int COLOR_NORMAL = 0xFFFFFFFF;
+    private static final int COLOR_LOW = 0xFFFF5252;
 
     @Override
     public void onReceive(Context context, Intent intent) {
