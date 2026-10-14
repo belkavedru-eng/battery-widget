@@ -14,7 +14,7 @@
         android:singleLine="true"
         android:includeFontPadding="false"
         android:text="0%"
-        android:textColor="#FFFFFF"
-        android:textSize="96sp"
+        android:textColor="#1B1B1B"
+        android:textSize="54dp"
         android:textStyle="bold" />
 </FrameLayout>
